@@ -1,0 +1,43 @@
+:root {
+    --checked-color: #7D7D94;
+    --accent-color: #0E0E11;
+    --red-color: #d30202;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+.wrapper {
+    max-width: 1240px;
+    padding: 60px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+.btn {
+    cursor: pointer;
+    background-color: #fff;
+    border: 0;
+
+    &-add {
+        &:hover {
+            transform: translateY(-1px);
+        }
+    }
+    &-delete {
+        font-size: 1.3rem;
+        color: #d30202;
+    }
+    
+}
