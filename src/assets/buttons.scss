@@ -1,0 +1,20 @@
+.btn {
+    cursor: pointer;
+    background-color: #fff;
+    border: 0;
+
+    &-add {
+        &:hover {
+            transform: translateY(-1px);
+        }
+    }
+    &-delete {
+        font-size: 1.3rem;
+        color: #d30202;
+    }
+    
+}
+
+.add-todo__btn {
+    margin-right: 10px;
+}
